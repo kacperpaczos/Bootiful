@@ -1,0 +1,12 @@
+[package]
+name = "bootiful-plymouth-discovery-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+
+[dependencies]
+bootiful-plymouth-discovery = { path = "../bootiful-plymouth-discovery" }
+serde_json = { workspace = true }
+clap = { workspace = true }
+anyhow = { workspace = true }
