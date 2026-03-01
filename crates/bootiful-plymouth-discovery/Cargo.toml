@@ -1,0 +1,19 @@
+[package]
+name = "bootiful-plymouth-discovery"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+toml = { workspace = true }
+chrono = { workspace = true }
+sha2 = { workspace = true }
+walkdir = { workspace = true }
+glob = { workspace = true }
+regex = { workspace = true }
+libc = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }

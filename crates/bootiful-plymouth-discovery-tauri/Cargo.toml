@@ -1,0 +1,13 @@
+[package]
+name = "bootiful-plymouth-discovery-tauri"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+
+[dependencies]
+bootiful-plymouth-discovery = { path = "../bootiful-plymouth-discovery" }
+tauri = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
